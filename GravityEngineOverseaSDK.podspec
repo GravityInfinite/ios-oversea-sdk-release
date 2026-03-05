@@ -22,6 +22,6 @@ Pod::Spec.new do |spec|
   spec.swift_version = "5.0"
   spec.vendored_frameworks = "GravityEngineSDK.xcframework"
   spec.frameworks = 'AppTrackingTransparency', 'SystemConfiguration', 'AdServices', 'Security', 'AdSupport', "iAd", "CoreTelephony"
-  spec.libraries = "sqlite3", "z"
+  spec.libraries = "sqlite3", "z", "c++"
   spec.requires_arc  = true
 end
